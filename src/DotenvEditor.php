@@ -1,15 +1,8 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Fabian
- * Date: 12.05.16
- * Time: 07:19
- */
+namespace Quickweb\SettingsEditor;
 
-namespace Quickweb\DotenvEditor;
-
-use Quickweb\DotenvEditor\Exceptions\DotEnvException;
+use Quickweb\SettingsEditor\Exceptions\DotEnvException;
 use Dotenv\Exception\InvalidPathException;
 
 class DotenvEditor

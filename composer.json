@@ -1,12 +1,12 @@
 {
-    "name": "inmanturbo/laravel-dotenv-editor",
-    "description": "A fork from Brotza/laravel-dotenv-editor",
+    "name": "inmanturbo/quickweb-settings",
+    "description": "The Quickweb settings editor",
     "keywords": [
         "laravel",
-        "dotenv",
-        "dotenv-editor"
+        "settings",
+        "settings-editor"
     ],
-    "type": "library",
+    "type": "ui",
     "license": "MIT",
     "authors": [
         {
@@ -21,16 +21,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Quickweb\\DotenvEditor\\": "src/"
+            "Quickweb\\SettingsEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Quickweb\\DotenvEditor\\DotenvEditorServiceProvider"
+                "Quickweb\\SettingsEditor\\SettingsEditorServiceProvider"
             ],
             "aliases": {
-                "DotenvEditor": "Quickweb\\DotenvEditor\\DotenvEditorFacade"
+                "DotenvEditor": "Quickweb\\SettingsEditor\\SettingsEditorFacade"
             }
         }
     }

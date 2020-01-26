@@ -1,10 +1,10 @@
 <?php
 
-namespace Quickweb\DotenvEditor;
+namespace Quickweb\SettingsEditor;
 
 use Illuminate\Support\ServiceProvider;
 
-class DotenvEditorServiceProvider extends ServiceProvider
+class SettingsEditorServiceProvider extends ServiceProvider
 {
     /**
      * Provider boot

@@ -7,11 +7,11 @@
  * Time: 07:20
  */
 
-namespace Quickweb\DotenvEditor;
+namespace Quickweb\SettingsEditor;
 
 use Illuminate\Support\Facades\Facade;
 
-class DotenvEditorFacade extends Facade
+class SettingsEditorFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
