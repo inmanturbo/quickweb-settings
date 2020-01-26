@@ -1,0 +1,37 @@
+{
+    "name": "inmanturbo/laravel-dotenv-editor",
+    "description": "A fork from Brotza/laravel-dotenv-editor",
+    "keywords": [
+        "laravel",
+        "dotenv",
+        "dotenv-editor"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inmanturbo",
+            "email": "inman.turbo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2",
+        "laravel/helpers": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quickweb\\DotenvEditor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quickweb\\DotenvEditor\\DotenvEditorServiceProvider"
+            ],
+            "aliases": {
+                "DotenvEditor": "Quickweb\\DotenvEditor\\DotenvEditorFacade"
+            }
+        }
+    }
+}
