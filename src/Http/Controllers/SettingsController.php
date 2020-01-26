@@ -1,6 +1,6 @@
 <?php
 
-namespace Quickweb\DotenvEditor\Http\Controllers;
+namespace Quickweb\SettingsEditor\Http\Controllers;
 
 use Quickweb\SettingsEditor\DotenvEditor as Env;
 use Quickweb\SettingsEditor\Exceptions\DotEnvException;
