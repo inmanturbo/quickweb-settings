@@ -7,7 +7,7 @@
  * Time: 06:08
  */
 
-namespace Quickweb\DotenvEditor\Exceptions;
+namespace Quickweb\SettingsEditor\Exceptions;
 
 use Exception;
 
