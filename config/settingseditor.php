@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Fabian
- * Date: 12.05.16
- * Time: 07:24
- */
-
 return [
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +38,7 @@ return [
 
     // Config route group
     'route'           => [
-        'namespace'  => 'Quickweb\DotenvEditor\Http\Controllers',
+        'namespace'  => 'Quickweb\SettingsEditor\Http\Controllers',
         'prefix'     => 'admin/settings',
         'as'         => 'admin.settings.',
         'middleware' => ['web'],
