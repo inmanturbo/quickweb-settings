@@ -42,12 +42,6 @@ class SettingsEditorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(
-            'quickweb-dotenveditor',
-            function () {
-                return new DotenvEditor();
-            }
-        );
 
         $this->mergeConfigFrom(__DIR__ . '/../config/dotenveditor.php', 'dotenveditor');
         $this->mergeConfigFrom(__DIR__ . '/../config/settings.php', 'settings');
