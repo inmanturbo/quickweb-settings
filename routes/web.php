@@ -8,6 +8,7 @@ if (config('dotenveditor.activated')) {
             Route::get('/', 'EnvController@overview')->name('index');
             Route::post('/add', 'EnvController@add')->name('add');
             Route::post('/update', 'EnvController@update')->name('update');
+            Route::post('/delete', 'EnvController@delete')->name('delete');
             Route::get('/getdetails/{timestamp?}', 'EnvController@getDetails')->name('getdetails');
         }
     );
@@ -20,6 +21,7 @@ if (config('settingseditor.activated')) {
             Route::get('/', 'SettingsController@overview')->name('index');
             Route::post('/add', 'SettingsController@add')->name('add');
             Route::post('/update', 'SettingsController@update')->name('update');
+            Route::post('/delete', 'SettingsController@delete')->name('delete');
             Route::get('/deletebackup/{timestamp}', 'SettingsController@deleteBackup')->name('deletebackup');
             Route::get('/getdetails/{timestamp?}', 'SettingsController@getDetails')->name('getdetails');
         }
